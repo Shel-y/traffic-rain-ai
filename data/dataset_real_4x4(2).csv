@@ -1,0 +1,17 @@
+a_id,b_id,score,a_nombre,b_nombre
+U1,R1,0.5,Barrio San Miguel,Viaducto+Revolución
+U1,R2,0.61,Barrio San Miguel,Circuito Interior
+U1,R3,0.52,Barrio San Miguel,Periférico Sur
+U1,R4,0.66,Barrio San Miguel,Eje Central
+U2,R1,0.31,Colinas Del Ajusco,Viaducto+Revolución
+U2,R2,0.0,Colinas Del Ajusco,Circuito Interior
+U2,R3,0.72,Colinas Del Ajusco,Periférico Sur
+U2,R4,0.01,Colinas Del Ajusco,Eje Central
+U3,R1,0.63,Jardines Del Pedregal,Viaducto+Revolución
+U3,R2,0.31,Jardines Del Pedregal,Circuito Interior
+U3,R3,1.0,Jardines Del Pedregal,Periférico Sur
+U3,R4,0.32,Jardines Del Pedregal,Eje Central
+U4,R1,0.38,La Joya,Viaducto+Revolución
+U4,R2,0.16,La Joya,Circuito Interior
+U4,R3,0.8,La Joya,Periférico Sur
+U4,R4,0.19,La Joya,Eje Central
