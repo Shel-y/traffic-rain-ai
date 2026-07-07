@@ -4,9 +4,9 @@ Traffic-Rain-AI es una solución avanzada de optimización urbana que integra Ma
 
 ## Demo del Sistema
 
-<video src="assets/demo/demo.webm" controls width="100%"></video>
+![Demo del sistema Traffic-Rain-AI](assets/demo/demo.gif)
 
-> Si el video no se reproduce en tu navegador, puedes [descargarlo directamente](assets/demo/demo.webm).
+> También disponible en [formato video (webm)](assets/demo/demo.webm).
 
 ## Arquitectura del Sistema
 
