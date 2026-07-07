@@ -79,32 +79,26 @@ Todo esto podrá evaluarse posteriormente.
 # Arquitectura objetivo
 
 ```
-Datos abiertos
+DDatos abiertos SACMEX
         │
         ▼
-Preprocesamiento
+Pipeline de procesamiento de datos
         │
         ▼
-Modelo IA (Amazon SageMaker)
+Dataset de trabajo
         │
-        ▼
-Predicción de riesgo
-        │
-        ▼
-Matriz de riesgo
-        │
-        ▼
-Construcción del QUBO
-        │
-        ▼
-QAOA
-(Amazon Braket Local Simulator)
-        │
-        ▼
-Asignación óptima
-        │
-        ▼
-Resultados
+        ├─────────────► Modelo IA
+        │                    │
+        │                    ▼
+        │             Predicción de riesgo
+        │                    │
+        └─────────────► Generación de matriz de riesgo
+                             │
+                             ▼
+                        QUBO + QAOA
+                             │
+                             ▼
+                    Amazon Braket Local Simulator
 ```
 
 ---
@@ -192,21 +186,33 @@ Responsabilidades:
 
 Resolver el problema mediante:
 
-- QUBO
-- QAOA
+- formulación QUBO
+- algoritmo QAOA
+- Amazon Braket Local Simulator
 
 Tecnología:
 
+Amazon Braket SDK
+
 Amazon Braket Local Simulator
 
-Estado:
+Estado actual:
 
-Existe un notebook funcional.
+Existe un notebook funcional desarrollado durante el proyecto QMexico Summer School.
 
-Este notebook debe reutilizarse.
+Ese notebook representa la referencia matemática y funcional del proyecto.
 
-No debe reescribirse sin autorización.
+Debe utilizarse para comprender:
 
+- la formulación del problema
+- la construcción del QUBO
+- las restricciones
+- la validación clásica
+- los resultados esperados
+
+La implementación final NO consistirá en reutilizar el notebook.
+
+El objetivo es desarrollar una implementación limpia, modular y mantenible utilizando Amazon Braket Local Simulator, manteniendo equivalencia funcional con el notebook.
 ---
 
 ## Módulo 5

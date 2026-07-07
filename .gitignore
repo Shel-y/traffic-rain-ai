@@ -1,0 +1,21 @@
+# Secretos y credenciales
+.env
+.aws/
+credentials.json
+
+# Datos y modelos locales
+data/model/
+data/inference/
+*.joblib
+*.csv
+*.json
+
+# Entornos y dependencias
+.venv/
+env/
+venv/
+__pycache__/
+
+# Sistema
+.DS_Store
+*.log

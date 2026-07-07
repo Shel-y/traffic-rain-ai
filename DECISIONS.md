@@ -100,34 +100,48 @@ Negativas
 
 ## Título
 
-El notebook QUBO/QAOA existente será reutilizado.
+El notebook existente será la referencia matemática del módulo cuántico.
 
-**Estado**
+Estado
 
 Approved
 
+Fecha
+
+2026-07-05
+
 ### Contexto
 
-Ya existe una implementación funcional del algoritmo cuántico.
+Existe un notebook desarrollado durante QMexico Summer School que implementa el problema utilizando QUBO y QAOA.
+
+Representa una referencia válida para la formulación matemática del problema.
 
 ### Decisión
 
-El notebook existente será el punto de partida del módulo cuántico.
+El notebook no será el código final del proyecto.
 
-No deberá reescribirse completamente.
+Será utilizado únicamente para comprender y validar:
 
-Solo podrán realizarse modificaciones pequeñas y justificadas.
+- formulación del QUBO
+- restricciones
+- función objetivo
+- validación clásica
+- resultados esperados
 
-### Consecuencias
+La implementación final se desarrollará utilizando Amazon Braket SDK y Amazon Braket Local Simulator.
 
-Positivas
+El comportamiento deberá ser funcionalmente equivalente al notebook.
 
-- Aprovechamiento del trabajo existente.
-- Menor riesgo.
+### Consecuencias positivas
 
-Negativas
+- Código modular.
+- Mejor mantenibilidad.
+- Integración natural con AWS.
+- Preparado para futuras ejecuciones en Amazon Braket.
 
-- Algunas decisiones del notebook deberán respetarse.
+### Consecuencias negativas
+
+- Requiere una migración controlada de la implementación.
 
 ---
 

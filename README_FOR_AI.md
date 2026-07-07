@@ -13,3 +13,20 @@
 7. Espera instrucciones.
 
 No escribas código hasta recibir aprobación.
+## Sobre el notebook cuántico
+
+Existe un notebook desarrollado previamente.
+
+No debe copiarse línea por línea.
+
+Debe analizarse para comprender:
+
+- el problema
+- el modelo matemático
+- el QUBO
+- QAOA
+- las restricciones
+
+Después deberá implementarse una versión equivalente utilizando Amazon Braket Local Simulator.
+
+No utilizar Qiskit en la implementación final salvo que el usuario lo apruebe explícitamente.

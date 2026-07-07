@@ -315,3 +315,17 @@ Nunca avances a la siguiente fase automáticamente.
 Nunca tomes decisiones arquitectónicas por tu cuenta.
 
 El usuario decide la arquitectura final.
+
+# Computación Cuántica
+
+Existe un notebook previo que sirve como referencia matemática.
+
+La implementación final deberá desarrollarse utilizando Amazon Braket SDK y Amazon Braket Local Simulator.
+
+No reutilices el notebook como código de producción.
+
+No copies código línea por línea.
+
+Analiza la lógica, comprende el modelo matemático y construye una implementación limpia, modular y mantenible.
+
+Si detectas diferencias entre la implementación actual y Amazon Braket, explícalas primero y espera aprobación antes de realizar cambios.
